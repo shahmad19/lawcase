@@ -1,1 +1,1 @@
-web: java -Dserver.port=8080 -jar target/LawCase-0.0.1-SNAPSHOT-plain.jar
+web: java -Dserver.port=$PORT -jar target/LawCase-0.0.1-SNAPSHOT-plain.jar
