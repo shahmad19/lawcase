@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -jar target/LawCase-0.0.1-SNAPSHOT-plain.jar
+web: java -jar build/libs/LawCase-0.0.1-SNAPSHOT-plain.jar
