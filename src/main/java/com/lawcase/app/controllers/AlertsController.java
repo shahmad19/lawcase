@@ -28,4 +28,9 @@ public class AlertsController {
         return allAlerts;
     }
 
+    @GetMapping("/welcome")
+    private String welcome(){
+        return "welcome";
+    }
+
 }
